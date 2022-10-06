@@ -27,3 +27,19 @@ nav{
 .paisagem {
     width: 100%;
 }
+
+h1 {
+    text-align: center;
+    font-size: 3.3em;
+    margin-top: 1em;
+    text-decoration: underline;
+    text-shadow: 4px 4px 10px rgb(84, 12, 12);
+}
+
+footer {
+    background: url("black-brick.jpg");
+    color: white;
+    text-align: center;
+    padding: 70px;
+
+}
