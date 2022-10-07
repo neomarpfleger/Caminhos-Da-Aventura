@@ -1,5 +1,5 @@
 header {
-    background: rgb(167, 167, 212);
+    background: rgb(177, 177, 180);
 }
 
 .logo {
@@ -16,6 +16,7 @@ nav li {
     display: inline;
     font-size: 2.5em;
     margin: 0 40px;
+    text-decoration:overline;
 }
 
 nav{
@@ -36,10 +37,78 @@ h1 {
     text-shadow: 4px 4px 10px rgb(84, 12, 12);
 }
 
+.galeria {
+    margin:50px auto;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1) {
+
+}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.foto:nth-child(4) {
+    animation-delay: 15s;
+}
+
+h2 {
+    width: 70%;
+    margin: 0 auto 20px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.sobreNois {
+    display: flex;
+    width: 70%;
+    margin: 0 auto 70px;
+}
+
+.descrição {
+    margin: 0 0 0 20px;
+    font-size: 1.2em;
+}
+
 footer {
     background: url("black-brick.jpg");
     color: white;
+    text-shadow: 4px 4px 10px rgb(206, 190, 190);
     text-align: center;
-    padding: 70px;
+    padding: 60px;
 
+}
+
+h3{
+    font-size: 2em;
+    margin: 5px auto 50px;
+    text-decoration: underline;
 }
