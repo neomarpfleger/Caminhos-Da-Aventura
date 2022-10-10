@@ -1,5 +1,5 @@
 header {
-    background: rgb(177, 177, 180);
+    background: rgb(178, 178, 181);
 }
 
 .logo {
@@ -7,7 +7,6 @@ header {
 }
 
 .cabecario {
-    position: relative;
     width: 100%;
     margin: 0 auto;
 }
@@ -15,8 +14,18 @@ header {
 nav li {
     display: inline;
     font-size: 2.5em;
-    margin: 0 40px;
-    text-decoration:overline;
+    margin: auto 40px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 nav{
@@ -27,19 +36,19 @@ nav{
 
 .paisagem {
     width: 100%;
-    height: 40em;
+    height: 45em;
 }
 
 main {
     background:linear-gradient( #faf0f0, #797070);
 }
 
-h1 {
+.titulo {
     text-align: center;
-    font-size: 3.3em;
-    margin-top: 1em;
+    font-size: 3.2em;
+    margin-top: 1.5em;
     text-decoration: underline;
-    text-shadow: 2px 2px 5px rgb(84, 12, 12);
+    text-shadow: 3px 3px 7px rgb(84, 12, 12);
 }
 
 .galeria {
