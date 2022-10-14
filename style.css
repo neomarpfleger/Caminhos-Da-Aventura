@@ -1,8 +1,8 @@
-header {
+header{
     background: rgb(178, 178, 181);
 }
 
-.logo {
+.logo{
     width: 30%;
 }
 
@@ -11,14 +11,13 @@ header {
     margin: 0 auto;
 }
 
-nav li {
+nav li{
     display: inline;
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin: auto 40px;
-
 }
 
-nav a {
+nav a{
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -30,7 +29,7 @@ nav a:hover {
 
 nav{
     position: absolute;
-    top: 200px;
+    top: 155px;
     right: 100px;
 }
 
@@ -39,7 +38,7 @@ nav{
     height: 45em;
 }
 
-main {
+.corpoIndex {
     background:linear-gradient( #faf0f0, #797070);
 }
 
@@ -95,11 +94,12 @@ main {
     animation-delay: 15s;
 }
 
-h2 {
+.subtitulo{
     width: 70%;
     margin: 0 auto 20px;
     font-size: 2.2em;
     text-align: center;
+    text-shadow: 3px 3px 7px rgb(84, 12, 12);
 }
 
 .sobreNois {
@@ -109,12 +109,16 @@ h2 {
     padding: 70PX;
 }
 
+.sobreNois img{
+    width: 40%;
+}
+
 .descrição {
     margin: 0 0 0 20px;
     font-size: 1.2em;
 }
 
-footer {
+.rodape {
     background: url("black-brick.jpg");
     color: white;
     text-shadow: 4px 4px 10px rgb(206, 190, 190);
@@ -128,3 +132,14 @@ h3{
     margin: 5px auto 50px;
     text-decoration: underline;
 }
+
+/* Contatos */
+
+.email {
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+    background: rgb(189, 189, 163);
+    /*border: 3px solid black; tag para colocar bordas*/
+
+} 
