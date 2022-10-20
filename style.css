@@ -124,6 +124,7 @@ nav{
     text-shadow: 4px 4px 10px rgb(206, 190, 190);
     text-align: center;
     padding: 60px;
+    
 
 }
 
@@ -135,11 +136,17 @@ h3{
 
 /* Contatos */
 
-.email {
+.contatos {
     width: 70%;
-    height: 100px;
-    margin: 50px auto;
-    font-size: 1.4em;
+    height: 500px;
+    margin: 3% 0 0 10%;
     /*border: 3px solid black; tag para colocar bordas*/
-
 } 
+
+.e_mail{
+    display: inline-flex;
+}
+
+.imgEmail{
+    width: 100px;
+}
