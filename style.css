@@ -145,8 +145,15 @@ h3{
 
 .e_mail{
     display: inline-flex;
+    margin: 5px 0;
+}
+
+.e_mail p{
+    padding: 60px 15px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .imgEmail{
-    width: 100px;
+    width: 150px;
 }
