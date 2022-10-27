@@ -13,9 +13,34 @@ header{
 
 nav li{
     display: inline;
+    margin: 10px 40px 0 0;
     font-size: 2.3em;
-    margin: auto 40px;
 }
+
+.drop{
+    visibility:hidden;
+    opacity: ;
+    min-width: 5rem;
+    transition: all 0.5s ease;
+
+
+}
+
+li ul li{
+    font-size: 0.5em;
+    display: block;
+    clear: both;
+}
+
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li:hover,
+ul li ul:focus{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
 
 nav a{
     text-transform: uppercase;
