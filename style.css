@@ -1,9 +1,10 @@
 header{
-    background: rgb(178, 178, 181);
+    background: linear-gradient(#797070,#faf0f0);
 }
 
 .logo{
-    width: 30%;
+    width: 20%;
+    margin-left: 250px;
 }
 
 .cabecario {
@@ -17,44 +18,19 @@ nav li{
     font-size: 2.3em;
 }
 
-.drop{
-    visibility:hidden;
-    opacity: ;
-    min-width: 5rem;
-    transition: all 0.5s ease;
-
-
-}
-
-li ul li{
-    font-size: 0.5em;
-    display: block;
-    clear: both;
-}
-
-ul li:hover>ul,
-ul li:focus-within>ul,
-ul li:hover,
-ul li ul:focus{
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-
-
 nav a{
     text-transform: uppercase;
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover{
     color: red;
     text-decoration: underline;
 }
 
 nav{
     position: absolute;
-    top: 155px;
+    top: 150px;
     right: 100px;
 }
 
