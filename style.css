@@ -36,7 +36,7 @@ nav{
 
 .paisagem {
     width: 100%;
-    height: 45em;
+    height: 50em;
 }
 
 .mainFundo{
@@ -129,8 +129,6 @@ background:#faf0f0;
     text-shadow: 4px 4px 10px rgb(206, 190, 190);
     text-align: center;
     padding: 60px;
-    
-
 }
 
 h3{
@@ -183,4 +181,83 @@ h3{
 .trilhas{
     font-size: 1.2em;
     margin: 0 0 0.5em;
+}
+
+.slide{
+    width: 1000px;
+    height: 800px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.slides{
+    width: 4000px;
+    display: flex;
+}
+
+.image{
+    width: 1000px;
+    height: 800px;  
+}
+
+#atual{
+    transition: all 2s;
+}
+
+.btn{
+    position: absolute;
+    color: rgb(76, 85, 150);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    transition: all 0,4s;
+    font-size: 3em;
+    margin-top: -5px;
+}
+
+.btn:hover{
+    transform: acale(1.5);
+}
+
+#voltar{
+    top: 100%;
+    left: 18%;   
+}
+
+#next{
+    top: 100%;
+    right: 18%;
+}
+
+.balls{
+    position: absolute;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #fff;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover{
+   background: #fff; 
+}
+
+.imgAtual{
+    transition: all 0.5S;
+    background: #fff;
 }
