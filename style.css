@@ -164,23 +164,29 @@ h3{
 
 /*Trilhas*/
 
+.tituloTrilhas{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
 .mainTrilhas{
     margin-left: 3em;
 }
 
 .nomeMunicipios{
     font-size: 2em;
-    margin: 0 0 1em;
+    margin: 0 0 1em 2.5rem;
 }
 
 .imgMunicipios{
     width: 300px;
-    margin: 0 0 0.5em;
+    margin: 0 0 0.5em 2.5rem;
 }
 
 .trilhas{
     font-size: 1.2em;
-    margin: 0 0 0.5em;
+    margin: 0 0 0.5em 2.5rem;
 }
 
 .slide{
@@ -227,13 +233,13 @@ h3{
 }
 
 #voltar{
-    top: 100%;
-    left: 18%;   
+    top: 46rem;
+    left: 5rem;   
 }
 
 #next{
-    top: 100%;
-    right: 18%;
+    top: 46rem;
+    right: 5rem; 
 }
 
 .balls{
