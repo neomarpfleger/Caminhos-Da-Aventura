@@ -4,7 +4,7 @@ header{
 
 .logo{
     width: 20%;
-    margin-left: 250px;
+    margin-left: 10rem;
 }
 
 .cabecario {
@@ -14,8 +14,8 @@ header{
 
 nav li{
     display: inline;
-    margin: 10px 40px 0 0;
-    font-size: 2.3em;
+    margin: 2rem 3rem 0 0;
+    font-size: 2rem;
 }
 
 nav a{
@@ -30,7 +30,7 @@ nav a:hover{
 
 nav{
     position: absolute;
-    top: 150px;
+    top: 7rem;
     right: 100px;
 }
 
@@ -165,9 +165,9 @@ h3{
 /*Trilhas*/
 
 .tituloTrilhas{
-    font-size: 3rem;
+    font-size: 30px;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .mainTrilhas{
@@ -187,6 +187,10 @@ h3{
 .trilhas{
     font-size: 1.2em;
     margin: 0 0 0.5em 2.5rem;
+}
+
+.textoTrilha{
+    margin: 0 2rem;
 }
 
 .slide{
