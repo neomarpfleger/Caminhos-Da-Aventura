@@ -271,3 +271,11 @@ h3{
     transition: all 0.5S;
     background: #fff;
 }
+
+.localizacao{
+    display: block;
+    margin: auto;
+    width: 74%;
+    height: 50vh;
+    padding-bottom: 2rem;
+}
