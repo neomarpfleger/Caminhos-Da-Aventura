@@ -191,6 +191,11 @@ h3{
 
 .textoTrilha{
     margin: 0 2rem;
+    line-height: 1.2rem;
+}
+
+em strong{
+    color:red;
 }
 
 .slide{
