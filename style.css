@@ -117,6 +117,7 @@ background:#faf0f0;
 .sobreNois img{
     width: 12rem;
     height: 10vh;
+    float: left;
 }
 
 .descrição {
