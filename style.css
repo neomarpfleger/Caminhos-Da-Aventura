@@ -115,7 +115,8 @@ background:#faf0f0;
 }
 
 .sobreNois img{
-    width: 40%;
+    width: 12rem;
+    height: 10vh;
 }
 
 .descrição {
@@ -190,12 +191,10 @@ h3{
 }
 
 .textoTrilha{
-    margin: 0 2rem;
+    margin: 0 12%;
     line-height: 1.2rem;
-}
+    text-indent: 2rem;
 
-em strong{
-    color:red;
 }
 
 .slide{
@@ -278,7 +277,8 @@ em strong{
 }
 
 .textoFoto{
-margin:0 0 2rem 12rem;
+margin:0 0 0 12rem;
+padding-bottom: 1.5rem;
 
 }
 
