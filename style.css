@@ -199,8 +199,8 @@ h3{
 }
 
 .slide{
-    width: 1000px;
-    height: 800px;
+    width: 73%;
+    height: 60%;
     margin: 50px auto 0;
     align-items: center;
     justify-content: center;
@@ -278,9 +278,9 @@ h3{
 }
 
 .textoFoto{
-margin:0 0 0 12rem;
+margin-left:15%;
 padding-bottom: 1.5rem;
-
+ma
 }
 
 .localizacao{
