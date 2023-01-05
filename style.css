@@ -289,3 +289,47 @@ padding-bottom: 1.5rem;
     width: 74%;
     height: 50vh;
 }
+
+@media screen and (max-width: 480px){
+    header{
+        display: inline-block;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
+
+    nav{
+        top: 2rem;
+        right: 0.5rem;
+    }
+
+    nav li{
+        font-size: 1rem;
+        margin: 0 0.5rem 0 0;
+    }
+
+    .paisagem{
+        width: 100vw;
+        height: 60VH;
+    }
+
+    .sobreNois{
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #camping{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .descrição{
+        margin: 0;
+        width: 100%;
+        padding: 0 0 2rem 0;
+    }
+
+
+}
