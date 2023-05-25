@@ -39,10 +39,6 @@ nav{
     height: 50em;
 }
 
-.mainFundo{
-background:#faf0f0;
-}
-
 .corpoIndex {
     background:linear-gradient( #faf0f0, #797070);
 }
@@ -149,21 +145,6 @@ h3{
     /*border: 3px solid black; tag para colocar bordas*/
 } 
 
-.e_mail{
-    display: inline-flex;
-    margin: 5px 0;
-}
-
-.e_mail p{
-    padding: 60px 15px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.imgEmail{
-    width: 150px;
-}
-
 /*Trilhas*/
 
 .tituloTrilhas{
@@ -179,11 +160,6 @@ h3{
 .nomeMunicipios{
     font-size: 2em;
     margin: 0 0 1em 2.5rem;
-}
-
-.imgMunicipios{
-    width: 300px;
-    margin: 0 0 0.5em 2.5rem;
 }
 
 .trilhas{
@@ -339,6 +315,4 @@ h3{
         width: 100%;
         padding: 0 0 2rem 0;
     }
-
-
 }

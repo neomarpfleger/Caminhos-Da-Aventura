@@ -1,0 +1,41 @@
+
+.mainFundo{
+    background:#faf0f0;
+}
+
+.imgEmail{
+    width: 5rem;
+    height: 5rem;
+}
+
+.e_mail{
+    display: flex;
+}
+
+.e_mail p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px){
+    .rodape{
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .e_mail{
+        display: block;
+    }
+
+    .e_mail p{
+        margin-top: 1em;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .rodape{
+        bottom: 0px;
+    }
+}
