@@ -1,3 +1,7 @@
+
+:root{
+    --font-quemSomos: 'Edu TAS Beginner', sans-serif;
+}
 header{
     background: linear-gradient(#797070,#faf0f0);
 }
@@ -119,6 +123,7 @@ nav a:hover{
 .descrição {
     margin: 0 0 0 20px;
     font-size: 1.2em;
+    font-family: var(--font-quemSomos);
 }
 
 .rodape {
